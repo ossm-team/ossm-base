@@ -1,2 +1,2 @@
-# ossm-base
-Shared base layer of the OSSM suite
+# OSSM Base
+Shared base layer of the OSSM suite.
