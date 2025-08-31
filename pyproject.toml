@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ossm_base"
+version = "0.2.0"
+description = "Base types and shared methods for the OSSM ecosystem (models, tasks, analysis)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0" }
+authors = [
+  { name = "Tonio Weidler", email = "t.weidler@maastrichtuniversity.nl" },
+  { name = "Mario Senden", email = "mario.senden@maastrichtuniversity.nl" }
+]
+keywords = ["computational neuroscience", "sensorimotor", "standards", "open science"]
+
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.urls]
+Homepage = "https://github.com/ossm-team/ossm-base"
+Issues = "https://github.com/ossm-team/ossm-base/issues"
